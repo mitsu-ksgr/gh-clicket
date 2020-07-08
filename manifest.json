@@ -1,0 +1,12 @@
+{
+  "name": "Gh Clicket",
+  "version": "0.1",
+  "description": "makes the icon clickable.",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/*"],
+      "js": ["script.js"]
+    }
+  ],
+  "manifest_version": 2
+}
