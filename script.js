@@ -29,17 +29,20 @@ const showToast = function(message) {
   elem.style.left = '5%';
   elem.style.zIndex = 1;
 
-  elem.style.fontSize = 'large';
-  elem.style.color = 'White';
-  elem.style.backgroundColor = 'DeepSkyBlue';
+  elem.style.fontFamily = '-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif';
+  elem.style.fontSize = '20px';
+  elem.style.fontWeight = '600';
+  elem.style.color = 'GAINSBORO';
+  elem.style.backgroundColor = '#333333';
   elem.style.textAlign = 'center';
 
-  elem.style.minWidth = '250px';
+  elem.style.minWidth = '350px';
   elem.style.paddingTop = '15px';
   elem.style.paddingBottom = '15px';
   elem.style.paddingLeft = '30px';
   elem.style.paddingRight = '30px';
   elem.style.borderRadius = '3px';
+  elem.style.boxShadow = '0 0 24px gray';
 
   document.body.appendChild(elem);
   window.setTimeout(function() {
